@@ -15,7 +15,7 @@ class UnitConverter {
     const Map<String, double> grams = {
       'Grams': 1,
       'Kilograms': 0.001,
-      'Pounds': 0.00220462,
+      'Pounds': 0.00220463,
       'Ounces': 0.035274,
     };
     return value / grams[from]! * grams[to]!;
